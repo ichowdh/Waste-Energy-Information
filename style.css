@@ -1,0 +1,6 @@
+body {
+  background-image: url("jhu.jpg");
+  background-size: cover; /* Makes it cover the entire screen */
+  background-repeat: no-repeat;
+  background-position: center;
+}
