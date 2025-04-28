@@ -35,6 +35,15 @@ main {
   text-align: center;
 }
 
+.single-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* spacing between buttons */
+  margin-top: 30px;
+}
+
+
 .card-container {
   display: flex;
   justify-content: center;
