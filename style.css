@@ -26,6 +26,20 @@ main {
   text-align: center;
 }
 
+.home-page .card a {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+
+  /* 🔥 No shadow, no border */
+  box-shadow: none;
+  border: none;
+}
+
 .single-column {
   display: flex;
   flex-direction: column;
