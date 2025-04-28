@@ -84,10 +84,14 @@ main {
 }
 
 .card a {
-  border-radius: 0;
-  overflow: hidden;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* 🔥 stretch image and body equally */
+  height: 100%;
+  text-decoration: none;
+  color: black;
 }
+
 
 .container {
   display: flex;
