@@ -56,13 +56,13 @@ main {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
-  width: 300px; /* 🔥 make a consistent width */
+  width: 300px;
   text-align: center;
   text-decoration: none;
   color: black;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
 
 .card:hover {
@@ -146,7 +146,7 @@ a {
   font-size: 16px;
   transition: background-color 0.3s, color 0.3s, transform 0.3s;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-  width: 90%; 
+  width: 250px; 
   text-align: center; 
 }
 
