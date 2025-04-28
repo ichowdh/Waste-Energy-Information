@@ -44,17 +44,20 @@ main {
 
 a {
   display: inline-block;
-  background-color: #f8f9fa; /* soft off-white color */
+  background-color: #f8f9fa;
   color: black;
-  padding: 18px 36px;
-  margin: 8px 0;
+  padding: 12px 20px;
+  margin: 4px 0; 
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 10px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   transition: background-color 0.3s, color 0.3s, transform 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: soft shadow */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  width: 200px; 
+  text-align: center; 
 }
+
 
 a:hover {
   background-color: #e0e0e0; /* slightly darker on hover */
