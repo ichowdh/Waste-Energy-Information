@@ -26,7 +26,7 @@ main {
   text-align: center;
 }
 
-/* Ensure all links are white */
+/* /* Ensure all links are white */
 a {
   color: white;
   text-decoration: underline;
@@ -35,4 +35,23 @@ a {
 /* Optional: change link color on hover */
 a:hover {
   color: #FFD700; /* gold or any highlight color */
+} */
+
+a {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white */
+  color: white;
+  padding: 12px 24px;
+  margin: 10px 0;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  font-weight: bold;
 }
+
+a:hover {
+  background-color: white; /* solid white on hover */
+  color: black; /* text turns black on hover for contrast */
+  transform: scale(1.05); /* subtle zoom effect */
+}
+
