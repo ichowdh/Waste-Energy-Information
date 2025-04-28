@@ -71,6 +71,12 @@ main {
   background-color: #f8f9fa;
 }
 
+.card a {
+  border-radius: 0;
+  overflow: hidden;
+  display: block;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -86,6 +92,7 @@ main {
   flex-direction: column;
   gap: 8px;
 }
+
 
 a {
   display: inline-block;
