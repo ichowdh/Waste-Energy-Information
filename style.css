@@ -46,8 +46,8 @@ main {
   display: block;
   background-color: #f8f9fa;
   color: black;
-  padding: 12px 20px; /* 🔵 tighter padding */
-  margin: 4;
+  padding: 6px 12px; /* 🔵 tighter padding */
+  margin: 2;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
