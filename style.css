@@ -39,7 +39,7 @@ main {
   min-width: 250px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 
 a {
