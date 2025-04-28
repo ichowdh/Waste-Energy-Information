@@ -26,22 +26,6 @@ main {
   text-align: center;
 }
 
-.energy-page {
-  background-image: url("wolfe_building.jpg"); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  color: white; /* ensures text is readable */
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .single-column {
   display: flex;
   flex-direction: column;
