@@ -26,32 +26,23 @@ main {
   text-align: center;
 }
 
-/* /* Ensure all links are white */
-a {
-  color: white;
-  text-decoration: underline;
-}
-
-/* Optional: change link color on hover */
-a:hover {
-  color: #FFD700; /* gold or any highlight color */
-} */
 
 a {
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white */
-  color: white;
-  padding: 12px 24px;
-  margin: 10px 0;
+  background-color: #f8f9fa; /* soft off-white color */
+  color: black;
+  padding: 18px 36px;
+  margin: 15px 0;
   text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  border-radius: 12px;
   font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: soft shadow */
 }
 
 a:hover {
-  background-color: white; /* solid white on hover */
-  color: black; /* text turns black on hover for contrast */
-  transform: scale(1.05); /* subtle zoom effect */
+  background-color: #e0e0e0; /* slightly darker on hover */
+  color: black;
+  transform: scale(1.05);
 }
-
