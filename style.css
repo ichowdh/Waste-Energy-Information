@@ -43,7 +43,6 @@ main {
   margin-top: 30px;
 }
 
-
 .card-container {
   display: flex;
   justify-content: center;
@@ -57,7 +56,7 @@ main {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
-  width: 320px; /* 🔵 wider now */
+  width: 300px; /* 🔥 make a consistent width */
   text-align: center;
   text-decoration: none;
   color: black;
@@ -72,16 +71,16 @@ main {
 
 .card img {
   width: 100%;
-  height: 250px;
+  height: 220px; /* 🔥 consistent image size */
   object-fit: cover;
   display: block;
 }
 
 .card h2 {
-  color: black;
-  padding: 15px 0;
   margin: 0;
-  background-color: #f8f9fa;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .card a {
