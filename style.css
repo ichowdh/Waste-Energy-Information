@@ -26,6 +26,21 @@ main {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px; /* some space between title and buttons */
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 a {
   display: inline-block;
